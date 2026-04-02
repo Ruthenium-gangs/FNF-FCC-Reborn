@@ -29,7 +29,7 @@ class MainMenuState extends MusicBeatState
 		'credits'
 	];
 
-	var rightOption:String = 'options';
+	var :String = 'options';
 
 	var magenta:FlxSprite;
 	var camFollow:FlxObject;
@@ -83,8 +83,7 @@ class MainMenuState extends MusicBeatState
 			item.screenCenter(X);
 		}
 
-		if (leftOption != null)
-			leftItem = createMenuItem(leftOption, 60, 490);
+
 		if (rightOption != null)
 		{
 			rightItem = createMenuItem(rightOption, FlxG.width - 60, 490);
@@ -226,11 +225,6 @@ class MainMenuState extends MusicBeatState
 			switch(curColumn)
 			{
 				case CENTER:
-					if(controls.UI_LEFT_P && leftOption != null)
-					{
-						curColumn = LEFT;
-						changeItem();
-					}
 					else if(controls.UI_RIGHT_P && rightOption != null)
 					{
 						curColumn = RIGHT;
@@ -276,10 +270,6 @@ class MainMenuState extends MusicBeatState
 					case CENTER:
 						option = optionShit[curSelected];
 						item = menuItems.members[curSelected];
-
-					case LEFT:
-						option = leftOption;
-						item = leftItem;
 
 					case RIGHT:
 						option = rightOption;
