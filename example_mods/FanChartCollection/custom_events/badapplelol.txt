@@ -1,0 +1,9 @@
+Value 1: 
+'a' Bad Apple comun
+'b' off
+'f' bg blanco charac normal
+'n' bg negro charac normal
+'c' Bad Apple Invertido
+'col b' apple color black
+'col w' apple color white
+Value 2: tiempo en el que quieras encenderlo - 0.015 - 100

@@ -1,0 +1,2 @@
+Value 1: Subtitle text (Leave blank if taking from TXT files)
+Value 2: Duration (default 1), size (default 36), type speed (default 0.02)
