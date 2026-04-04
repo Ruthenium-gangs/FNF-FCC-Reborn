@@ -8,6 +8,7 @@ import flixel.graphics.frames.FlxFrame;
 import flixel.group.FlxGroup;
 import flixel.input.gamepad.FlxGamepad;
 import haxe.Json;
+import hxwindowmode.WindowColorMode;
 
 import openfl.Assets;
 import openfl.display.Bitmap;
@@ -69,6 +70,9 @@ class TitleState extends MusicBeatState
 		Paths.clearStoredMemory();
 		super.create();
 		Paths.clearUnusedMemory();
+
+		WindowColorMode.setDarkMode();
+
 
 		if(!initialized)
 		{
