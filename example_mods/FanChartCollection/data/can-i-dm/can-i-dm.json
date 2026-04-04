@@ -2727,7 +2727,7 @@
 		[
 			108169.014084507,
 			[
-				["Cinematics (OverLap)", "3", "84"]
+				["Cinematics (OverLap)", "1", "84"]
 			]
 		],
 		[
@@ -2769,7 +2769,7 @@
 		[
 			114929.577464789,
 			[
-				["Cinematics (OverLap)", "3", "0"]
+				["Cinematics (OverLap)", "1", "0"]
 			]
 		],
 		[
@@ -2781,7 +2781,7 @@
 		[
 			121690.14084507,
 			[
-				["Cinematics (OverLap)", "3", "84"]
+				["Cinematics (OverLap)", "1", "84"]
 			]
 		],
 		[
@@ -2817,7 +2817,7 @@
 		[
 			128450.704225352,
 			[
-				["Cinematics (OverLap)", "3", "0"]
+				["Cinematics (OverLap)", "1", "0"]
 			]
 		],
 		[
@@ -2849,13 +2849,8 @@
 			[
 				["FadeScreen", "0", "272"]
 			]
-		],
-		[
-			148732.394366197,
-			[
-				["CameraZoom", "0.5", "4"]
-			]
 		]
+
 	],
 	"player2": "canid",
 	"offset": 0,

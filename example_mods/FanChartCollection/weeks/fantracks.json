@@ -5,12 +5,6 @@
 	"weekBackground": "stage",
 	"weekBefore": "tutorial",
 	"startUnlocked": true,
-	"weekCharacters": [
-		"dad",
-		"bf",
-		"gf"
-	],
-	"hideStoryMode": false,
 	"songs": [
 		[
 			"can i dm",
@@ -25,9 +19,9 @@
 			"Dissolution",
 			"dan",
 			[
-				40,
-				40,
-				40
+				30,
+				30,
+				30
 			]
 		],
 		[
@@ -38,8 +32,23 @@
 				33,
 				113
 			]
+		],
+		[
+			"Insane",
+			"inbis",
+			[
+				50,
+				45,
+				45
+			]
 		]
 	],
-	"weekName": "Custom Week",
-	"hiddenUntilUnlocked": false
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"hideStoryMode": false,
+	"hiddenUntilUnlocked": false,
+	"weekName": "Custom Week"
 }

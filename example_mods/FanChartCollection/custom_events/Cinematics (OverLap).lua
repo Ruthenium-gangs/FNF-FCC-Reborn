@@ -5,13 +5,13 @@ Index = 1
 
 function onCreatePost()
 
-    makeLuaSprite('UpperBar(OverLap)', 'empty', -110, -350)
-	makeGraphic('UpperBar(OverLap)', 1500, 350, '000000')
+    makeLuaSprite('UpperBar(OverLap)', 'empty', -110, -750)
+	makeGraphic('UpperBar(OverLap)', 1500, 750, '000000')
 	setObjectCamera('UpperBar(OverLap)', 'other')
 	addLuaSprite('UpperBar(OverLap)', false)
 
     makeLuaSprite('LowerBar(OverLap)', 'empty', -110, 720)
-	makeGraphic('LowerBar(OverLap)', 1500, 350, '000000')
+	makeGraphic('LowerBar(OverLap)', 1500, 750, '000000')
 	setObjectCamera('LowerBar(OverLap)', 'other')
 	addLuaSprite('LowerBar(OverLap)', false)
 

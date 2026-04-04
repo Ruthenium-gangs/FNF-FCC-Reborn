@@ -24,6 +24,12 @@ function onCreate()
 	scaleObject('g', 0.6,0.6);
     setScrollFactor('g', 1, 1);
 
+    makeLuaSprite('gg', 'stages/Theor/light', -700, 0)
+    setLuaSpriteScrollFactor('gg', 0.9, 0.9); 
+    addLuaSprite('gg', true)
+	scaleObject('gg', 6, 0.6);
+    setScrollFactor('gg', 0, 0);
+
 end
 
 

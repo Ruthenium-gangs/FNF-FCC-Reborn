@@ -1,0 +1,317 @@
+17:20:13:402 [ 9552] | INFO  | Initializing crosire's ReShade version '6.7.3.2150' (64-bit) loaded from 'D:\FCCReborn_1.5\bin\OPENGL32.DLL' into 'D:\FCCReborn_1.5\bin\FCC.exe' (0x9CFA1C17) ...
+17:20:13:760 [ 9552] | INFO  | Registering hooks for 'user32.dll' ...
+17:20:13:823 [ 9552] | INFO  | > Libraries loaded.
+17:20:13:886 [ 9552] | INFO  | > Found 21 match(es). Installing ...
+17:20:14:086 [ 9552] | INFO  | Registering hooks for 'C:\Windows\system32\dinput.dll' ...
+17:20:14:149 [ 9552] | INFO  | > Delayed.
+17:20:14:248 [ 9552] | INFO  | Registering hooks for 'C:\Windows\system32\dinput8.dll' ...
+17:20:14:269 [ 9552] | INFO  | > Libraries loaded.
+17:20:14:273 [ 9552] | INFO  | > Found 2 match(es). Installing ...
+17:20:14:357 [ 9552] | INFO  | Registering hooks for 'ws2_32.dll' ...
+17:20:14:360 [ 9552] | INFO  | > Libraries loaded.
+17:20:14:363 [ 9552] | INFO  | > Found 8 match(es). Installing ...
+17:20:14:466 [ 9552] | INFO  | Registering hooks for 'C:\Windows\system32\opengl32.dll' ...
+17:20:14:468 [ 9552] | INFO  | > Delayed until first call to an exported function.
+17:20:14:472 [ 9552] | INFO  | Registering hooks for 'openvr_api.dll' ...
+17:20:14:475 [ 9552] | INFO  | > Delayed.
+17:20:14:481 [ 9552] | INFO  | Initialized.
+17:20:14:494 [ 9552] | INFO  | Redirecting wglChoosePixelFormat(hdc = FFFFFFFFC3011749, ppfd = 0000008051CFF390) ...
+17:20:14:498 [ 9552] | INFO  | > Dumping pixel format descriptor:
+17:20:14:501 [ 9552] | INFO  |   +-----------------------------------------+-----------------------------------------+
+17:20:14:507 [ 9552] | INFO  |   | Name                                    | Value                                   |
+17:20:14:513 [ 9552] | INFO  |   +-----------------------------------------+-----------------------------------------+
+17:20:14:519 [ 9552] | INFO  |   | Flags                                   | 0x25                                    |
+17:20:14:526 [ 9552] | INFO  |   | ColorBits                               | 24                                      |
+17:20:14:531 [ 9552] | INFO  |   | DepthBits                               | 8                                       |
+17:20:14:537 [ 9552] | INFO  |   | StencilBits                             | 8                                       |
+17:20:14:543 [ 9552] | INFO  |   +-----------------------------------------+-----------------------------------------+
+17:20:14:549 [ 9552] | INFO  | Installing export hooks for 'C:\Windows\system32\opengl32.dll' ...
+17:20:14:559 [ 9552] | INFO  | > Found 360 match(es). Installing ...
+17:20:14:758 [ 9552] | INFO  | Returning pixel format: 5
+17:20:14:762 [ 9552] | INFO  | Redirecting wglSetPixelFormat(hdc = FFFFFFFFC3011749, iPixelFormat = 5, ppfd = 0000008051CFF390) ...
+17:20:14:774 [ 9552] | INFO  | Searching for add-ons (*.addon, *.addon64) in 'D:\FCCReborn_1.5\bin' ...
+17:20:14:778 [ 9552] | INFO  | Redirecting wglCreateContext(hdc = FFFFFFFFC3011749) ...
+17:20:14:783 [ 9552] | INFO  | > Passing on to wglCreateLayerContext:
+17:20:14:787 [ 9552] | INFO  | Redirecting wglCreateLayerContext(hdc = FFFFFFFFC3011749, iLayerPlane = 0) ...
+17:20:14:950 [ 9552] | INFO  | Searching for add-ons (*.addon, *.addon64) in 'D:\FCCReborn_1.5\bin' ...
+17:20:14:959 [ 9552] | WARN  | Window class style of window 00000000003800F4 is missing 'CS_OWNDC' flag.
+17:20:14:963 [ 9552] | INFO  | Redirecting wglDeleteContext(hglrc = 0000000000010000) ...
+17:20:15:027 [ 9552] | INFO  | Redirecting wglChoosePixelFormat(hdc = FFFFFFFF9201011A, ppfd = 0000008051CFF1E0) ...
+17:20:15:029 [ 9552] | INFO  | > Dumping pixel format descriptor:
+17:20:15:033 [ 9552] | INFO  |   +-----------------------------------------+-----------------------------------------+
+17:20:15:037 [ 9552] | INFO  |   | Name                                    | Value                                   |
+17:20:15:040 [ 9552] | INFO  |   +-----------------------------------------+-----------------------------------------+
+17:20:15:046 [ 9552] | INFO  |   | Flags                                   | 0x25                                    |
+17:20:15:049 [ 9552] | INFO  |   | ColorBits                               | 24                                      |
+17:20:15:056 [ 9552] | INFO  |   | DepthBits                               | 8                                       |
+17:20:15:059 [ 9552] | INFO  |   | StencilBits                             | 8                                       |
+17:20:15:065 [ 9552] | INFO  |   +-----------------------------------------+-----------------------------------------+
+17:20:15:071 [ 9552] | INFO  | Returning pixel format: 5
+17:20:15:076 [ 9552] | INFO  | Redirecting wglSetPixelFormat(hdc = FFFFFFFF9201011A, iPixelFormat = 5, ppfd = 0000008051CFF1E0) ...
+17:20:15:082 [ 9552] | INFO  | Searching for add-ons (*.addon, *.addon64) in 'D:\FCCReborn_1.5\bin' ...
+17:20:15:119 [ 9552] | INFO  | Redirecting wglCreateContext(hdc = FFFFFFFF9201011A) ...
+17:20:15:124 [ 9552] | INFO  | > Passing on to wglCreateLayerContext:
+17:20:15:128 [ 9552] | INFO  | Redirecting wglCreateLayerContext(hdc = FFFFFFFF9201011A, iLayerPlane = 0) ...
+17:20:15:189 [ 9552] | INFO  | Searching for add-ons (*.addon, *.addon64) in 'D:\FCCReborn_1.5\bin' ...
+17:20:15:199 [ 9552] | WARN  | Window class style of window 00000000001806E4 is missing 'CS_OWNDC' flag.
+17:20:15:202 [ 9552] | INFO  | Redirecting wglChoosePixelFormatARB(hdc = FFFFFFFF9201011A, piAttribIList = 0000008051CFF290, pfAttribFList = 0000008051CFF3A0, nMaxFormats = 1, piFormats = 0000008051CFF240, nNumFormats = 0000008051CFF258) ...
+17:20:15:206 [ 9552] | INFO  | > Dumping attributes:
+17:20:15:213 [ 9552] | INFO  |   +-----------------------------------------+-----------------------------------------+
+17:20:15:220 [ 9552] | INFO  |   | Attribute                               | Value                                   |
+17:20:15:226 [ 9552] | INFO  |   +-----------------------------------------+-----------------------------------------+
+17:20:15:230 [ 9552] | INFO  |   | WGL_DRAW_TO_WINDOW_ARB                  | TRUE                                    |
+17:20:15:236 [ 9552] | INFO  |   | WGL_RED_BITS_ARB                        | 8                                       |
+17:20:15:240 [ 9552] | INFO  |   | WGL_GREEN_BITS_ARB                      | 8                                       |
+17:20:15:246 [ 9552] | INFO  |   | WGL_BLUE_BITS_ARB                       | 8                                       |
+17:20:15:250 [ 9552] | INFO  |   | WGL_ALPHA_BITS_ARB                      | 8                                       |
+17:20:15:256 [ 9552] | INFO  |   | WGL_DOUBLE_BUFFER_ARB                   | TRUE                                    |
+17:20:15:259 [ 9552] | INFO  |   | WGL_DEPTH_BITS_ARB                      | 8                                       |
+17:20:15:263 [ 9552] | INFO  |   | WGL_STENCIL_BITS_ARB                    | 8                                       |
+17:20:15:269 [ 9552] | INFO  |   | WGL_ACCELERATION_ARB                    | 0x2027                                  |
+17:20:15:274 [ 9552] | INFO  |   +-----------------------------------------+-----------------------------------------+
+17:20:15:281 [ 9552] | INFO  | Returning pixel format(s): 5
+17:20:15:287 [ 9552] | INFO  | Redirecting wglDeleteContext(hglrc = 0000000000020000) ...
+17:20:15:346 [ 9552] | INFO  | Redirecting wglSetPixelFormat(hdc = FFFFFFFFCA011586, iPixelFormat = 5, ppfd = 0000008051CFF260) ...
+17:20:15:353 [ 9552] | INFO  | Searching for add-ons (*.addon, *.addon64) in 'D:\FCCReborn_1.5\bin' ...
+17:20:15:390 [ 9552] | INFO  | Redirecting wglCreateContext(hdc = FFFFFFFFCA011586) ...
+17:20:15:394 [ 9552] | INFO  | > Passing on to wglCreateLayerContext:
+17:20:15:398 [ 9552] | INFO  | Redirecting wglCreateLayerContext(hdc = FFFFFFFFCA011586, iLayerPlane = 0) ...
+17:20:15:458 [ 9552] | INFO  | Searching for add-ons (*.addon, *.addon64) in 'D:\FCCReborn_1.5\bin' ...
+17:20:15:468 [ 9552] | WARN  | Window class style of window 00000000003900F4 is missing 'CS_OWNDC' flag.
+17:20:15:560 [ 9552] | INFO  | Resizing device context FFFFFFFFCA011586 to 1280x720 ...
+17:20:15:570 [ 9552] | INFO  | Running on Intel(R) UHD Graphics 600.
+17:20:15:985 [ 9552] | INFO  | Recreated runtime environment on runtime 000001E34778C530 ('D:\FCCReborn_1.5\bin\ReShade.ini').
+17:20:16:029 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\AdaptiveSharpen.fx' in 0.025000 s.
+17:20:16:055 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\AmbientLight.fx' in 0.022000 s.
+17:20:16:078 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\Colourfulness.fx' in 0.016000 s.
+17:20:16:108 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\Denoise.fx' in 0.024000 s.
+17:20:16:155 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\DOF.fx' in 0.042000 s.
+17:20:16:173 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FakeMotionBlur.fx' in 0.014000 s.
+17:20:16:191 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FilmGrain2.fx' in 0.013000 s.
+17:20:16:209 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FilmicPass.fx' in 0.013000 s.
+17:20:16:233 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FineSharp.fx' in 0.017000 s.
+17:20:16:254 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\GaussianBlur.fx' in 0.014000 s.
+17:20:16:270 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\Glitch.fx' in 0.013000 s.
+17:20:16:296 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\HighPassSharpen.fx' in 0.021000 s.
+17:20:16:314 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\HQ4X.fx' in 0.013000 s.
+17:20:16:331 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\HSLShift.fx' in 0.012000 s.
+17:20:16:350 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\LevelsPlus.fx' in 0.012000 s.
+17:20:16:371 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\LightDoF.fx' in 0.015000 s.
+17:20:16:397 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\MagicBloom.fx' in 0.019000 s.
+17:20:16:437 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\NightVision.fx' in 0.036000 s.
+17:20:16:456 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\ReflectiveBumpMapping.fx' in 0.015000 s.
+17:20:16:528 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\Daltonize.fx' in 0.068000 s.
+17:20:16:573 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\Deband.fx' in 0.042000 s.
+17:20:16:615 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\DisplayDepth.fx' in 0.037000 s.
+17:20:16:649 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\LUT.fx' in 0.030000 s.
+17:20:16:719 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\UIMask.fx' in 0.066000 s.
+17:20:16:938 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\Bloom.fx' in 0.214000 s.
+17:20:16:954 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\SweetFX\ASCII.fx' in 0.013000 s.
+17:20:16:973 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\SweetFX\Border.fx' in 0.012000 s.
+17:20:16:991 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\SweetFX\Cartoon.fx' in 0.013000 s.
+17:20:17:009 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\SweetFX\CAS.fx' in 0.013000 s.
+17:20:17:024 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\SweetFX\ChromaticAberration.fx' in 0.011000 s.
+17:20:17:042 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\SweetFX\ColorMatrix.fx' in 0.011000 s.
+17:20:17:062 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\SweetFX\Compare.fx' in 0.013000 s.
+17:20:17:090 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\SweetFX\CRT.fx' in 0.015000 s.
+17:20:17:109 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\SweetFX\Curves.fx' in 0.013000 s.
+17:20:17:128 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\SweetFX\DPX.fx' in 0.013000 s.
+17:20:17:148 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\SweetFX\FakeHDR.fx' in 0.015000 s.
+17:20:17:165 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\SweetFX\FilmGrain.fx' in 0.012000 s.
+17:20:17:190 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\SweetFX\FXAA.fx' in 0.019000 s.
+17:20:17:230 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\SweetFX\Layer.fx' in 0.035000 s.
+17:20:17:250 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\SweetFX\Levels.fx' in 0.014000 s.
+17:20:17:268 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\SweetFX\LiftGammaGain.fx' in 0.013000 s.
+17:20:17:287 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\SweetFX\LumaSharpen.fx' in 0.014000 s.
+17:20:17:303 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\SweetFX\Monochrome.fx' in 0.011000 s.
+17:20:17:332 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\SweetFX\Nostalgia.fx' in 0.023000 s.
+17:20:17:352 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\SweetFX\Sepia.fx' in 0.012000 s.
+17:20:17:398 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\SweetFX\SMAA.fx' in 0.039000 s.
+17:20:17:416 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\SweetFX\Splitscreen.fx' in 0.014000 s.
+17:20:17:431 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\SweetFX\Technicolor.fx' in 0.012000 s.
+17:20:17:450 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\SweetFX\Technicolor2.fx' in 0.014000 s.
+17:20:17:469 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\SweetFX\Tonemap.fx' in 0.014000 s.
+17:20:17:484 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\SweetFX\Vibrance.fx' in 0.012000 s.
+17:20:17:501 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\SweetFX\Vignette.fx' in 0.013000 s.
+17:20:17:524 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\AdaptiveTonemapper.fx' in 0.019000 s.
+17:20:17:566 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\ArcaneBloom.fx' in 0.037000 s.
+17:20:17:591 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\ArtisticVignette.fx' in 0.020000 s.
+17:20:17:614 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\AspectRatioSuite.fx' in 0.020000 s.
+17:20:17:639 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\Checkerboard.fx' in 0.020000 s.
+17:20:17:663 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\ColorLab.fx' in 0.020000 s.
+17:20:17:689 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\CRT_Lottes.fx' in 0.022000 s.
+17:20:17:713 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\CRT_Yee64.fx' in 0.021000 s.
+17:20:17:748 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\CRT_Yeetron.fx' in 0.026000 s.
+17:20:17:771 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\Cursor.fx' in 0.019000 s.
+17:20:17:794 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\DepthAlpha.fx' in 0.019000 s.
+17:20:17:816 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\Dither.fx' in 0.018000 s.
+17:20:17:840 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\Flashlight.fx' in 0.018000 s.
+17:20:17:862 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\FlexibleCA.fx' in 0.018000 s.
+17:20:17:887 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\FocalDOF.fx' in 0.021000 s.
+17:20:17:910 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\FramerateLimiter.fx' in 0.020000 s.
+17:20:17:937 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\HexLensFlare.fx' in 0.023000 s.
+17:20:17:973 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\LiquidLens.fx' in 0.031000 s.
+17:20:18:275 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\MagicHDR.fx' in 0.298000 s.
+17:20:18:332 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\MBMB.fx' in 0.053000 s.
+17:20:18:382 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\MinimalColorGrading.fx' in 0.048000 s.
+17:20:18:438 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\MultiFX.fx' in 0.052000 s.
+17:20:18:573 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\NeoBloom.fx' in 0.132000 s.
+17:20:18:627 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\NormalMap.fx' in 0.050000 s.
+17:20:18:671 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\Overlay.fx' in 0.041000 s.
+17:20:18:738 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\PiecewiseFilmicTonemap.fx' in 0.063000 s.
+17:20:18:825 [ 8372] | WARN  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\Pong.fx' in 0.084000 s with warnings:
+D:\FCCReborn_Demo\bin\reshade-shaders\Shaders\FXShaders\FXShaders/Digits.fxh(827, 31): warning X3206: implicit truncation of vector type
+D:\FCCReborn_Demo\bin\reshade-shaders\Shaders\FXShaders\Pong.fx(244, 38): warning X3206: implicit truncation of vector type
+
+17:20:18:878 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\RetroFog.fx' in 0.049000 s.
+17:20:18:917 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\SCurve.fx' in 0.037000 s.
+17:20:19:016 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\Sketch.fx' in 0.095000 s.
+17:20:19:098 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\TrackingRays.fx' in 0.078000 s.
+17:20:19:215 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\UnrealLens.fx' in 0.114000 s.
+17:20:19:335 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\Unsharp.fx' in 0.117000 s.
+17:20:19:392 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\VirtualResolution.fx' in 0.053000 s.
+17:20:19:439 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\WhitepointFixer.fx' in 0.043000 s.
+17:20:19:531 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\METEOR\MartysMods_CHROMATICABERRATION.fx' in 0.090000 s.
+17:20:19:663 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\METEOR\MartysMods_FILMGRAIN.fx' in 0.127000 s.
+17:20:19:747 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\METEOR\MartysMods_FLOYDSTEINBERG.fx' in 0.081000 s.
+17:20:19:818 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\METEOR\MartysMods_HALFTONE.fx' in 0.067000 s.
+17:20:20:081 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\METEOR\MartysMods_LOCALLAPLACIAN.fx' in 0.259000 s.
+17:20:20:210 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\METEOR\MartysMods_LONGEXPOSURE.fx' in 0.126000 s.
+17:20:20:277 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\METEOR\MartysMods_NVSHARPEN.fx' in 0.062000 s.
+17:20:20:430 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\METEOR\MartysMods_SCENEWEAVER.fx' in 0.150000 s.
+17:20:20:490 [ 8372] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\METEOR\MartysMods_TODDYHANCER.fx' in 0.056000 s.
+17:20:21:425 [ 9552] | INFO  | Resizing image data for texture 'V__tMagicBloom_Dirt' from 1024x576 to 1280x720.
+17:20:23:611 [ 9552] | INFO  | Resizing device context FFFFFFFFCA011586 to 634x396 ...
+17:20:23:630 [ 9552] | INFO  | Destroyed runtime environment on runtime 000001E34778C530 ('D:\FCCReborn_1.5\bin\ReShade.ini').
+17:20:23:655 [ 9552] | INFO  | Recreated runtime environment on runtime 000001E34778C530 ('D:\FCCReborn_1.5\bin\ReShade.ini').
+17:20:23:743 [16408] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\AdaptiveSharpen.fx' in 0.076000 s.
+17:20:23:859 [16408] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\AmbientLight.fx' in 0.112000 s.
+17:20:23:909 [16408] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\Colourfulness.fx' in 0.046000 s.
+17:20:23:966 [16408] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\Denoise.fx' in 0.055000 s.
+17:20:24:214 [16408] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\DOF.fx' in 0.244000 s.
+17:20:24:299 [16408] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FakeMotionBlur.fx' in 0.081000 s.
+17:20:24:382 [16408] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FilmGrain2.fx' in 0.080000 s.
+17:20:24:437 [16408] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FilmicPass.fx' in 0.053000 s.
+17:20:24:569 [16408] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FineSharp.fx' in 0.129000 s.
+17:20:24:659 [16408] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\GaussianBlur.fx' in 0.086000 s.
+17:20:24:757 [16408] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\Glitch.fx' in 0.095000 s.
+17:20:24:841 [16408] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\HighPassSharpen.fx' in 0.081000 s.
+17:20:24:925 [16408] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\HQ4X.fx' in 0.078000 s.
+17:20:25:016 [16408] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\HSLShift.fx' in 0.088000 s.
+17:20:25:080 [16408] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\LevelsPlus.fx' in 0.059000 s.
+17:20:25:178 [ 9552] | INFO  | Resizing device context FFFFFFFFCA011586 to 554x314 ...
+17:20:25:251 [16408] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\LightDoF.fx' in 0.143000 s.
+17:20:25:281 [ 9552] | INFO  | Destroyed runtime environment on runtime 000001E34778C530 ('D:\FCCReborn_1.5\bin\ReShade.ini').
+17:20:25:347 [ 9552] | INFO  | Recreated runtime environment on runtime 000001E34778C530 ('D:\FCCReborn_1.5\bin\ReShade.ini').
+17:20:25:475 [15968] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\AdaptiveSharpen.fx' in 0.079000 s.
+17:20:25:630 [15968] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\AmbientLight.fx' in 0.132000 s.
+17:20:25:701 [15968] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\Colourfulness.fx' in 0.047000 s.
+17:20:25:780 [15968] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\Denoise.fx' in 0.055000 s.
+17:20:26:109 [15968] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\DOF.fx' in 0.305000 s.
+17:20:26:137 [ 9552] | INFO  | Resizing device context FFFFFFFFCA011586 to 560x314 ...
+17:20:26:211 [15968] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FakeMotionBlur.fx' in 0.078000 s.
+17:20:26:240 [ 9552] | INFO  | Destroyed runtime environment on runtime 000001E34778C530 ('D:\FCCReborn_1.5\bin\ReShade.ini').
+17:20:26:309 [ 9552] | INFO  | Recreated runtime environment on runtime 000001E34778C530 ('D:\FCCReborn_1.5\bin\ReShade.ini').
+17:20:26:447 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\AdaptiveSharpen.fx' in 0.089000 s.
+17:20:26:591 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\AmbientLight.fx' in 0.120000 s.
+17:20:26:660 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\Colourfulness.fx' in 0.045000 s.
+17:20:26:742 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\Denoise.fx' in 0.055000 s.
+17:20:27:019 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\DOF.fx' in 0.253000 s.
+17:20:27:111 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FakeMotionBlur.fx' in 0.068000 s.
+17:20:27:182 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FilmGrain2.fx' in 0.047000 s.
+17:20:27:888 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FilmicPass.fx' in 0.050000 s.
+17:20:28:224 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FineSharp.fx' in 0.114000 s.
+17:20:28:401 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\GaussianBlur.fx' in 0.066000 s.
+17:20:28:564 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\Glitch.fx' in 0.051000 s.
+17:20:28:785 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\HighPassSharpen.fx' in 0.057000 s.
+17:20:28:958 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\HQ4X.fx' in 0.049000 s.
+17:20:29:141 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\HSLShift.fx' in 0.050000 s.
+17:20:29:349 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\LevelsPlus.fx' in 0.048000 s.
+17:20:29:433 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\LightDoF.fx' in 0.078000 s.
+17:20:29:599 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\MagicBloom.fx' in 0.163000 s.
+17:20:29:642 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\NightVision.fx' in 0.041000 s.
+17:20:29:701 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\ReflectiveBumpMapping.fx' in 0.055000 s.
+17:20:29:755 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\Daltonize.fx' in 0.050000 s.
+17:20:29:808 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\Deband.fx' in 0.051000 s.
+17:20:29:868 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\DisplayDepth.fx' in 0.056000 s.
+17:20:29:911 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\LUT.fx' in 0.040000 s.
+17:20:29:967 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\UIMask.fx' in 0.052000 s.
+17:20:30:128 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\Bloom.fx' in 0.158000 s.
+17:20:30:182 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\SweetFX\ASCII.fx' in 0.050000 s.
+17:20:30:229 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\SweetFX\Border.fx' in 0.044000 s.
+17:20:30:272 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\SweetFX\Cartoon.fx' in 0.039000 s.
+17:20:30:313 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\SweetFX\CAS.fx' in 0.038000 s.
+17:20:30:358 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\SweetFX\ChromaticAberration.fx' in 0.040000 s.
+17:20:30:400 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\SweetFX\ColorMatrix.fx' in 0.040000 s.
+17:20:30:480 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\SweetFX\Compare.fx' in 0.075000 s.
+17:20:30:540 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\SweetFX\CRT.fx' in 0.057000 s.
+17:20:30:591 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\SweetFX\Curves.fx' in 0.047000 s.
+17:20:30:636 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\SweetFX\DPX.fx' in 0.042000 s.
+17:20:30:686 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\SweetFX\FakeHDR.fx' in 0.048000 s.
+17:20:30:728 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\SweetFX\FilmGrain.fx' in 0.039000 s.
+17:20:30:799 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\SweetFX\FXAA.fx' in 0.067000 s.
+17:20:30:843 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\SweetFX\Layer.fx' in 0.040000 s.
+17:20:30:887 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\SweetFX\Levels.fx' in 0.041000 s.
+17:20:30:931 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\SweetFX\LiftGammaGain.fx' in 0.041000 s.
+17:20:30:986 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\SweetFX\LumaSharpen.fx' in 0.052000 s.
+17:20:31:032 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\SweetFX\Monochrome.fx' in 0.042000 s.
+17:20:31:096 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\SweetFX\Nostalgia.fx' in 0.061000 s.
+17:20:31:135 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\SweetFX\Sepia.fx' in 0.036000 s.
+17:20:31:263 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\SweetFX\SMAA.fx' in 0.124000 s.
+17:20:31:318 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\SweetFX\Splitscreen.fx' in 0.052000 s.
+17:20:31:361 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\SweetFX\Technicolor.fx' in 0.039000 s.
+17:20:31:406 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\SweetFX\Technicolor2.fx' in 0.041000 s.
+17:20:31:455 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\SweetFX\Tonemap.fx' in 0.046000 s.
+17:20:31:511 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\SweetFX\Vibrance.fx' in 0.053000 s.
+17:20:31:569 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\SweetFX\Vignette.fx' in 0.056000 s.
+17:20:31:643 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\AdaptiveTonemapper.fx' in 0.072000 s.
+17:20:31:871 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\ArcaneBloom.fx' in 0.224000 s.
+17:20:31:930 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\ArtisticVignette.fx' in 0.057000 s.
+17:20:31:981 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\AspectRatioSuite.fx' in 0.047000 s.
+17:20:32:031 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\Checkerboard.fx' in 0.047000 s.
+17:20:32:098 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\ColorLab.fx' in 0.064000 s.
+17:20:32:174 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\CRT_Lottes.fx' in 0.072000 s.
+17:20:32:223 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\CRT_Yee64.fx' in 0.047000 s.
+17:20:32:272 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\CRT_Yeetron.fx' in 0.046000 s.
+17:20:32:317 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\Cursor.fx' in 0.042000 s.
+17:20:32:374 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\DepthAlpha.fx' in 0.054000 s.
+17:20:32:431 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\Dither.fx' in 0.054000 s.
+17:20:32:478 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\Flashlight.fx' in 0.043000 s.
+17:20:32:528 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\FlexibleCA.fx' in 0.047000 s.
+17:20:32:605 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\FocalDOF.fx' in 0.073000 s.
+17:20:32:692 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\FramerateLimiter.fx' in 0.085000 s.
+17:20:32:774 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\HexLensFlare.fx' in 0.077000 s.
+17:20:32:892 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\LiquidLens.fx' in 0.113000 s.
+17:20:33:151 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\MagicHDR.fx' in 0.255000 s.
+17:20:33:292 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\MBMB.fx' in 0.138000 s.
+17:20:33:341 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\MinimalColorGrading.fx' in 0.045000 s.
+17:20:33:389 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\MultiFX.fx' in 0.045000 s.
+17:20:33:550 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\NeoBloom.fx' in 0.158000 s.
+17:20:33:602 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\NormalMap.fx' in 0.049000 s.
+17:20:33:645 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\Overlay.fx' in 0.041000 s.
+17:20:33:713 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\PiecewiseFilmicTonemap.fx' in 0.064000 s.
+17:20:33:808 [15940] | WARN  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\Pong.fx' in 0.092000 s with warnings:
+D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\FXShaders/Digits.fxh(827, 31): warning X3206: implicit truncation of vector type
+D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\Pong.fx(244, 38): warning X3206: implicit truncation of vector type
+
+17:20:33:859 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\RetroFog.fx' in 0.049000 s.
+17:20:33:902 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\SCurve.fx' in 0.040000 s.
+17:20:33:986 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\Sketch.fx' in 0.079000 s.
+17:20:34:066 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\TrackingRays.fx' in 0.077000 s.
+17:20:34:178 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\UnrealLens.fx' in 0.109000 s.
+17:20:34:290 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\Unsharp.fx' in 0.108000 s.
+17:20:34:353 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\VirtualResolution.fx' in 0.059000 s.
+17:20:34:405 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\FXShaders\WhitepointFixer.fx' in 0.049000 s.
+17:20:34:478 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\METEOR\MartysMods_CHROMATICABERRATION.fx' in 0.071000 s.
+17:20:34:614 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\METEOR\MartysMods_FILMGRAIN.fx' in 0.132000 s.
+17:20:34:698 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\METEOR\MartysMods_FLOYDSTEINBERG.fx' in 0.080000 s.
+17:20:34:765 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\METEOR\MartysMods_HALFTONE.fx' in 0.064000 s.
+17:20:34:989 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\METEOR\MartysMods_LOCALLAPLACIAN.fx' in 0.220000 s.
+17:20:35:118 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\METEOR\MartysMods_LONGEXPOSURE.fx' in 0.126000 s.
+17:20:35:178 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\METEOR\MartysMods_NVSHARPEN.fx' in 0.056000 s.
+17:20:35:326 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\METEOR\MartysMods_SCENEWEAVER.fx' in 0.145000 s.
+17:20:35:382 [15940] | INFO  | Successfully compiled 'D:\FCCReborn_1.5\bin\reshade-shaders\Shaders\METEOR\MartysMods_TODDYHANCER.fx' in 0.052000 s.
+17:20:36:405 [ 9552] | INFO  | Resizing image data for texture 'V__tMagicBloom_Dirt' from 1024x576 to 560x314.
+17:20:49:900 [ 9552] | INFO  | Exiting ...
+17:20:49:926 [ 9552] | INFO  | Uninstalling 563 hook(s) ...
+17:20:51:026 [ 9552] | INFO  | Finished exiting.
