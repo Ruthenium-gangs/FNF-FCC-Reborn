@@ -4,7 +4,6 @@ import flixel.FlxG;
 import openfl.text.TextField;
 import openfl.text.TextFormat;
 import openfl.system.System;
-import openfl.Assets;
 
 /**
 	The FPS class provides an easy-to-use monitor to display
@@ -34,7 +33,7 @@ class FPSCounter extends TextField
 		currentFPS = 0;
 		selectable = false;
 		mouseEnabled = false;
-        defaultTextFormat = new TextFormat(Assets.getFont("assets/fonts/vcr.ttf").fontName, 14, color);
+		defaultTextFormat = new TextFormat("_sans", 14, color);
 		autoSize = LEFT;
 		multiline = true;
 		text = "FPS: ";
