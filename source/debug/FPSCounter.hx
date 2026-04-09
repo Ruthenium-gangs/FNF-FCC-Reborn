@@ -1,4 +1,4 @@
-package backend;
+package debug;
 
 import openfl.display.DisplayObjectContainer;
 
@@ -103,7 +103,7 @@ class FPSCounter extends TextField
 			#if openfl
 			memoryMegas = FlxMath.roundDecimal(System.totalMemory / 1000000, 1);
 			if (memoryMegas > memPeak) memPeak = memoryMegas;
-			text += " • Mem: " + memoryMegas + ' MB / MemPeak: ' + memPeak + " MB";
+			text += " • Mem: " + memoryMegas + ' MB / MemPeak: ' + memPeak + " MB"+ '\nFCC (Reborn) V1.5';
 			#end
 
 			textColor = 0xFFFFFFFF;
