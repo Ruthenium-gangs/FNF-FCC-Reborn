@@ -1,0 +1,23 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [-277, -281],
+			"anim": "idle",
+			"fps": 12,
+			"name": "idle",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": true,
+	"image": "characters/Fallen",
+	"position": [-670, -970],
+	"healthicon": "destination",
+	"flip_x": false,
+	"healthbar_colors": [140, 147, 231],
+	"camera_position": [-180, -520],
+	"sing_duration": 4,
+	"scale": 2.3,
+	"_editor_isPlayer": false
+}

@@ -1,15 +1,34 @@
-package debug;
+package backend;
 
-import flixel.FlxG;
+import openfl.display.DisplayObjectContainer;
+
+import openfl.Memory;
+import haxe.Timer;
+import openfl.events.Event;
 import openfl.text.TextField;
 import openfl.text.TextFormat;
+import flixel.math.FlxMath;
+import flixel.FlxG;
+#if gl_stats
+import openfl.display._internal.stats.Context3DStats;
+import openfl.display._internal.stats.DrawCallContext;
+#end
+#if flash
+import openfl.Lib;
+#end
+
+#if openfl
 import openfl.system.System;
-import openfl.Assets;
+#end
 
 /**
 	The FPS class provides an easy-to-use monitor to display
 	the current frame rate of an OpenFL project
 **/
+#if !openfl_debug
+@:fileXml('tags="haxe,release"')
+@:noDebug
+#end
 class FPSCounter extends TextField
 {
 	/**
@@ -17,12 +36,11 @@ class FPSCounter extends TextField
 	**/
 	public var currentFPS(default, null):Int;
 
-	/**
-		The current memory usage (WARNING: this is NOT your total program memory usage, rather it shows the garbage collector memory)
-	**/
-	public var memoryMegas(get, never):Float;
-
+	@:noCompletion private var cacheCount:Int;
+	@:noCompletion private var currentTime:Float;
 	@:noCompletion private var times:Array<Float>;
+	@:noCompletion private var memPeak:Float;
+
 
 	public function new(x:Float = 10, y:Float = 10, color:Int = 0x000000)
 	{
@@ -34,43 +52,87 @@ class FPSCounter extends TextField
 		currentFPS = 0;
 		selectable = false;
 		mouseEnabled = false;
-		defaultTextFormat = new TextFormat(Assets.getFont("assets/fonts/vcr.ttf").fontName, 14, color);
+		defaultTextFormat = new TextFormat(Paths.font("vcr.ttf"), 16, color);
 		autoSize = LEFT;
 		multiline = true;
 		text = "FPS: ";
 
+		cacheCount = 0;
+		currentTime = 0;
 		times = [];
-	}
 
-	var deltaTimeout:Float = 0.0;
+
+		#if openfl
+		FlxG.signals.postStateSwitch.add(reset);
+		memPeak = 0;
+		#end
+
+		#if flash
+		addEventListener(Event.ENTER_FRAME, function(e)
+		{
+			var time = Lib.getTimer();
+			__enterFrame(time - currentTime);
+		});
+		#end
+	}
 
 	// Event Handlers
-	private override function __enterFrame(deltaTime:Float):Void
+	@:noCompletion
+	private #if !flash override #end function __enterFrame(deltaTime:Float):Void
 	{
-		final now:Float = haxe.Timer.stamp() * 1000;
-		times.push(now);
-		while (times[0] < now - 1000) times.shift();
-		// prevents the overlay from updating every frame, why would you need to anyways @crowplexus
-		if (deltaTimeout < 50) {
-			deltaTimeout += deltaTime;
-			return;
+		currentTime += deltaTime;
+		times.push(currentTime);
+
+		while (times[0] < currentTime - 1000)
+		{
+			times.shift();
 		}
 
-		currentFPS = times.length < FlxG.updateFramerate ? times.length : FlxG.updateFramerate;		
-		updateText();
-		deltaTimeout = 0.0;
-	}
+		var currentCount = times.length;
+		currentFPS = Math.round((currentCount + cacheCount) / 2);
+		if (currentFPS > ClientPrefs.data.framerate) currentFPS = ClientPrefs.data.framerate;
 
-	public dynamic function updateText():Void { // so people can override it in hscript
-		text = 'FPS: ${currentFPS}'
-		+ '\nMem: ${flixel.util.FlxStringUtil.formatBytes(memoryMegas)}'
-		+ '\nFCC (Reborn) V1.5';
+		if (currentCount != cacheCount /*&& visible*/)
+		{
+
+
+			text = "FPS: " + currentFPS;
+			var memoryMegas:Float = 0;
+
+			
+			#if openfl
+			memoryMegas = FlxMath.roundDecimal(System.totalMemory / 1000000, 1);
+			if (memoryMegas > memPeak) memPeak = memoryMegas;
+			text += " • Mem: " + memoryMegas + ' MB / MemPeak: ' + memPeak + " MB";
+			#end
+
+			textColor = 0xFFFFFFFF;
+			if (memoryMegas > 3000 || currentFPS <= ClientPrefs.data.framerate / 2)
+			{
+				textColor = 0xFFFF0000;
+			}
+
+			
+			#if (gl_stats && !disable_cffi && (!html5 || !canvas))
+			text += "\ntotalDC: " + Context3DStats.totalDrawCalls();
+			text += "\nstageDC: " + Context3DStats.contextDrawCalls(DrawCallContext.STAGE);
+			text += "\nstage3DDC: " + Context3DStats.contextDrawCalls(DrawCallContext.STAGE3D);
+			#end
+
+			text += "\n";
+		}
 		
-		textColor = 0xFFFFFFFF;
-		if (currentFPS < FlxG.drawFramerate * 0.5)
-			textColor = 0xFFFF0000;
+		#if debug
+		//text += ' • ' +  Type.getClassName(Type.getClass(MusicBeatState.currentState));
+		#end
+
+		cacheCount = currentCount;
 	}
 
-	inline function get_memoryMegas():Float
-		return cpp.vm.Gc.memInfo64(cpp.vm.Gc.MEM_INFO_USAGE);
+	#if openfl
+	private function reset():Void
+	{
+		memPeak = 0;
+	}
+	#end
 }

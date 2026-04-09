@@ -5,6 +5,7 @@
 	"weekBackground": "stage",
 	"weekBefore": "tutorial",
 	"startUnlocked": true,
+	"hideStoryMode": false,
 	"songs": [
 		[
 			"can i dm",
@@ -41,6 +42,15 @@
 				45,
 				45
 			]
+		],
+		[
+			"abeyance",
+			"abeyance",
+			[
+				135,
+				20,
+				53
+			]
 		]
 	],
 	"weekCharacters": [
@@ -48,7 +58,6 @@
 		"bf",
 		"gf"
 	],
-	"hideStoryMode": false,
-	"hiddenUntilUnlocked": false,
-	"weekName": "Custom Week"
+	"weekName": "Custom Week",
+	"hiddenUntilUnlocked": false
 }

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Fallen.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="idle0000" x="442" y="902" width="425" height="903" frameX="-241" frameY="-43" frameWidth="900" frameHeight="1000"/>
+	<SubTexture name="idle0001" x="886" y="0" width="441" height="904" frameX="-213" frameY="-48" frameWidth="900" frameHeight="1000"/>
+	<SubTexture name="idle0002" x="0" y="902" width="442" height="903" frameX="-211" frameY="-50" frameWidth="900" frameHeight="1000"/>
+	<SubTexture name="idle0003" x="0" y="0" width="443" height="902" frameX="-210" frameY="-51" frameWidth="900" frameHeight="1000"/>
+	<SubTexture name="idle0004" x="443" y="0" width="443" height="902" frameX="-210" frameY="-51" frameWidth="900" frameHeight="1000"/>
+	<SubTexture name="idle0005" x="443" y="0" width="443" height="902" frameX="-210" frameY="-51" frameWidth="900" frameHeight="1000"/>
+	<SubTexture name="idle0006" x="443" y="0" width="443" height="902" frameX="-210" frameY="-51" frameWidth="900" frameHeight="1000"/>
+</TextureAtlas>

@@ -17,8 +17,8 @@ end
 	
 function onUpdate(elapsed)
 	setShaderFloat('omissioned', 'uWaveAmplitude', 0.1)
-	setShaderFloat('omissioned', 'uFrequency', 200)
-	setShaderFloat('omissioned', 'uSpeed', 5)
+	setShaderFloat('omissioned', 'uFrequency', 10)
+	setShaderFloat('omissioned', 'uSpeed', 1)
 end
 
 function onUpdatePost(elapsed)

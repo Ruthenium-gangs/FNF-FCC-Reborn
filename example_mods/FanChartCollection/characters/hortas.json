@@ -1,0 +1,71 @@
+{
+	"animations": [
+		{
+			"offsets": [-8, 23],
+			"loop": false,
+			"fps": 10,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"offsets": [-14, -12],
+			"loop": false,
+			"fps": 10,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"offsets": [-9, 2],
+			"loop": false,
+			"fps": 10,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [-44, -13],
+			"loop": false,
+			"fps": 10,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"loop": false,
+			"offsets": [0, 0],
+			"anim": "danceLeft",
+			"fps": 10,
+			"name": "danceLeft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [0, 0],
+			"anim": "danceRight",
+			"fps": 10,
+			"name": "danceRight",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [0, -20],
+			"anim": "scream",
+			"fps": 10,
+			"name": "scream",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": true,
+	"image": "characters/hortas",
+	"position": [-310, -160],
+	"healthicon": "hortas",
+	"flip_x": false,
+	"healthbar_colors": [77, 0, 159],
+	"camera_position": [180, 250],
+	"sing_duration": 6.1,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

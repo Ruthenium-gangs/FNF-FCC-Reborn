@@ -1,0 +1,27 @@
+{
+	"storyName": "Your New Week",
+	"difficulties": "finale",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"songs": [
+		[
+			"destination",
+			"none",
+			[
+				46,
+				40,
+				75
+			]
+		]
+	],
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"hideStoryMode": false,
+	"hiddenUntilUnlocked": false,
+	"weekName": "Custom Week"
+}
